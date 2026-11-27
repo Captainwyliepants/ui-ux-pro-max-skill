@@ -584,6 +584,26 @@ If not, use the Master rules exclusively.
 Now, generate the code...
 ```
 
+## Companion Skills: Motion and Polish
+
+UI UX Pro Max covers the look of an interface: styles, palettes, fonts, layout, and UX rules. For motion and interaction polish, pair it with **[Graphic-skills](https://github.com/Captainwyliepants/Graphic-skills)**, a set of Claude Code skills for animation, gestures, choreography, motion review, and mobile-web fixes.
+
+A typical flow:
+
+1. **Design** with UI UX Pro Max (`--design-system`) to pick the style, colors, and type.
+2. **Animate** with `/animate`, `/choreograph`, or `/gestures` from Graphic-skills.
+3. **Check** with `/review-animations`, `/break-ui`, and the Pro Max pre-delivery checklist.
+
+Not sure which Graphic-skills skill fits? Run `/ask-emil`.
+
+For the implementation layer, add **[Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance)** from the Chrome team. It steers agents toward native platform features (dialog, popover, anchor positioning, container queries, view transitions) with browser-support data. Install in Claude Code with `/plugin marketplace add GoogleChrome/modern-web-guidance` then `/plugin install modern-web-guidance@googlechrome`.
+
+| Layer | Skill set | Answers |
+|-------|-----------|---------|
+| Look | UI UX Pro Max | Style, color, type, layout, UX rules |
+| Motion | Graphic-skills | Animation, gestures, polish |
+| Platform | Modern Web Guidance | Which native HTML/CSS/JS to use |
+
 ## Architecture & Contributing
 
 ### For Users
