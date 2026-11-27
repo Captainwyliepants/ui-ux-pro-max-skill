@@ -253,6 +253,8 @@ This skill decides **what the UI looks like**: style, color, type, layout, and t
 | Stress-test with worst-case data | `/break-ui` |
 | Not sure which one | `/ask-emil` |
 
+For **which native HTML, CSS, and JS to build it with** (dialog, popover, anchor positioning, container queries, view transitions, form validation, Core Web Vitals), use [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance) from the Chrome team if installed (`/modern-web-guidance`). It returns current, browser-compatible patterns instead of legacy JS workarounds.
+
 ## Before Delivering App UI
 
 Read `references/pro-rules.md` and run through its canonical Pre-Delivery Checklist. It covers icon/visual-element discipline, interaction feedback, light/dark contrast, safe-area layout, and accessibility — scoped to native/mobile app UI (iOS/Android/React Native/Flutter).

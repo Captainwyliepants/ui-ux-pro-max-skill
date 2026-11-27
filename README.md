@@ -596,6 +596,14 @@ A typical flow:
 
 Not sure which Graphic-skills skill fits? Run `/ask-emil`.
 
+For the implementation layer, add **[Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance)** from the Chrome team. It steers agents toward native platform features (dialog, popover, anchor positioning, container queries, view transitions) with browser-support data. Install in Claude Code with `/plugin marketplace add GoogleChrome/modern-web-guidance` then `/plugin install modern-web-guidance@googlechrome`.
+
+| Layer | Skill set | Answers |
+|-------|-----------|---------|
+| Look | UI UX Pro Max | Style, color, type, layout, UX rules |
+| Motion | Graphic-skills | Animation, gestures, polish |
+| Platform | Modern Web Guidance | Which native HTML/CSS/JS to use |
+
 ## Architecture & Contributing
 
 ### For Users
