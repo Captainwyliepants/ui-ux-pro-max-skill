@@ -584,6 +584,18 @@ If not, use the Master rules exclusively.
 Now, generate the code...
 ```
 
+## Companion Skills: Motion and Polish
+
+UI UX Pro Max covers the look of an interface: styles, palettes, fonts, layout, and UX rules. For motion and interaction polish, pair it with **[Graphic-skills](https://github.com/Captainwyliepants/Graphic-skills)**, a set of Claude Code skills for animation, gestures, choreography, motion review, and mobile-web fixes.
+
+A typical flow:
+
+1. **Design** with UI UX Pro Max (`--design-system`) to pick the style, colors, and type.
+2. **Animate** with `/animate`, `/choreograph`, or `/gestures` from Graphic-skills.
+3. **Check** with `/review-animations`, `/break-ui`, and the Pro Max pre-delivery checklist.
+
+Not sure which Graphic-skills skill fits? Run `/ask-emil`.
+
 ## Architecture & Contributing
 
 ### For Users

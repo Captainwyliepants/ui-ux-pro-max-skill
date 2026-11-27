@@ -238,6 +238,21 @@ Then synthesize the design system + detailed searches and implement.
 | Layout breaks on small screens | `references/quick-reference.md` §5: `mobile-first` + `breakpoint-consistency` |
 | Performance / jank | `references/quick-reference.md` §3: `virtualize-lists` + `main-thread-budget` + `debounce-throttle` |
 
+## Companion: motion and polish (Graphic-skills)
+
+This skill decides **what the UI looks like**: style, color, type, layout, and the UX rules above. For **how it moves and feels**, the companion set at [Graphic-skills](https://github.com/Captainwyliepants/Graphic-skills) goes deeper. If those skills are installed, hand off to them; if not, keep using the `ux` and `gsap` domains here.
+
+| Situation | Companion command |
+|-----------|-------------------|
+| Build one animation (curve, duration, interruption, exit) | `/animate` |
+| Several elements move together (stagger, hero entrance) | `/choreograph` |
+| Drag, swipe, sheets, snap points | `/gestures` |
+| Review motion in a diff | `/review-animations` |
+| Animation drops frames | `/animation-performance` |
+| Web app feels wrong on a phone | `/mobile-native` |
+| Stress-test with worst-case data | `/break-ui` |
+| Not sure which one | `/ask-emil` |
+
 ## Before Delivering App UI
 
 Read `references/pro-rules.md` and run through its canonical Pre-Delivery Checklist. It covers icon/visual-element discipline, interaction feedback, light/dark contrast, safe-area layout, and accessibility — scoped to native/mobile app UI (iOS/Android/React Native/Flutter).
